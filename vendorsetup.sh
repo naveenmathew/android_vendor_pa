@@ -7,6 +7,7 @@ add_lunch_combo pa_d800-userdebug
 add_lunch_combo pa_d801-userdebug
 add_lunch_combo pa_d802-userdebug
 add_lunch_combo pa_d803-userdebug
+add_lunch_combo pa_d851-userdebug
 add_lunch_combo pa_edison-userdebug
 add_lunch_combo pa_evita-userdebug
 add_lunch_combo pa_falcon-userdebug
@@ -17,6 +18,7 @@ add_lunch_combo pa_galaxysmtd-userdebug
 add_lunch_combo pa_gee-userdebug
 add_lunch_combo pa_geeb-userdebug
 add_lunch_combo pa_hercules-userdebug
+add_lunch_combo pa_hlte-userdebug
 add_lunch_combo pa_honami-userdebug
 add_lunch_combo pa_i9100-userdebug
 add_lunch_combo pa_i9100g-userdebug

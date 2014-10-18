@@ -39,6 +39,9 @@ endif
 ifeq (pa_d803,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_d803.mk
 endif
+ifeq (pa_d851,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_d851.mk
+endif
 ifeq (pa_edison,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_edison.mk
 endif
@@ -68,6 +71,9 @@ ifeq (pa_geeb,$(TARGET_PRODUCT))
 endif
 ifeq (pa_hercules,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_hercules.mk
+endif
+ifeq (pa_hlte,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_hlte.mk
 endif
 ifeq (pa_honami,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_honami.mk
